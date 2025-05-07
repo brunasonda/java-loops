@@ -29,16 +29,16 @@ public class WhileLoops {
         Scanner scanner = new Scanner(System.in);
         int randomNum = getRandomNumber(100);
         System.out.println("Hola, adivina el numero aleatorio entre 1 y 100");
-        int intento;
+        int tryNumber;
         do {
             System.out.print("Introduce tu intento: ");
-            intento = scanner.nextInt();
-            if (intento < randomNum) {
-                System.out.println("El número es mayor que " + intento);
-            } else if (intento > randomNum) {
-                System.out.println("El número es menor que " + intento);
+            tryNumber = scanner.nextInt();
+            if (tryNumber < randomNum) {
+                System.out.println("El número es mayor que " + tryNumber);
+            } else if (tryNumber > randomNum) {
+                System.out.println("El número es menor que " + tryNumber);
             }
-        } while (intento != randomNum);
+        } while (tryNumber != randomNum);
         System.out.println("¡Correcto! El número era " + randomNum);
     }
 
