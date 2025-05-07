@@ -35,7 +35,7 @@ public class ForLoops {
                 break;
             }
         }
-//Escribe un bucle for que imprima números pares del 1 al 20 saltando los números impares usando 'continue'
+        //Escribe un bucle for que imprima números pares del 1 al 20 saltando los números impares usando 'continue'
         for (int i = 1; i <= 20; i++) {
             if (i % 2 != 0) {
                 continue;
